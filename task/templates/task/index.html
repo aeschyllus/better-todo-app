@@ -1,0 +1,66 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="{% static 'task/styles.css' %}">
+</head>
+<body>
+    <h1 class="title">Stuff I need to do</h1>
+
+    <!-- Task categories -->
+    <div class="categories">
+        <h2 class="categories-title">My lists</h2>
+        <ul class="categories-list"></ul>
+
+        <form action="" data-new-list-form>
+            <input
+                id="create-category-input"
+                type="text"
+                class="create-item"
+                placeholder="new list item"
+                aria-label="new list item"
+            />
+            <button id="create-category-submit" class="btn" aria-label="new list item">+</button>
+        </form>
+    </div>
+
+    <!-- By default, show this div -->
+    <div id="no-selected">Choose a list</div>
+
+    <!-- Tasks -->
+    <div class="tasks">
+        <div class="tasks-header">
+            <h2 class="tasks-title"></h2>
+            <p class="tasks-items">0 tasks remaining</p>
+        </div>
+
+        <div class="tasks-body"></div>
+
+        <!-- Create task -->
+        <div class="tasks-create">
+            <form action="" data-new-task-form>
+                <input
+                    id="create-task-input"
+                    type="text"
+                    class="create-item"
+                    placeholder="new task item"
+                    aria-label="new task item"
+                />
+                <button id="create-task-submit" class="btn" aria-label="new task item">+</button>
+            </form>
+        </div>
+
+        <!-- Delete stuff -->
+        <div class="tasks-delete">
+            <button class="btn delete">Clear completed tasks</button>
+            <button class="btn delete">Delete list</button>
+        </div>
+    </div>
+
+    <script src="{% static 'task/script.js' %}"></script>
+</body>
+</html>
