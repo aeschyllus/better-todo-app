@@ -1,6 +1,6 @@
 # Better To-Do App
 A web application created using Django REST Framework (back-end) and HTML/CSS/JavaScript (front-end).  
-**This web app is not responsive.**
+*This web app is not responsive.*
 
 ## Setup
 1. Open the terminal
