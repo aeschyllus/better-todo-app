@@ -7,7 +7,7 @@ A web application created using Django REST Framework (back-end) and ReactJS (fr
 1. Use pip to install required packages by typing `pip install -r requirements.txt`
 1. Type `python manage.py runserver` to run the back-end
 
-## Setting up React (Frontend)
+## Setting up React (Front-end)
 1. Open the terminal
 1. Navigate to the app's root directory
 1. Type `cd frontend` to go to our front-end's directory
