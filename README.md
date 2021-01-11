@@ -1,16 +1,18 @@
 # Better To-Do App
-A web application created using Django REST Framework (back-end) and HTML/CSS/JavaScript (front-end).  
-***Note:*** *This web app is not responsive.*
+A web application created using Django REST Framework (back-end) and ReactJS (front-end)
 
-## Setup
+## Setting up Django REST Framework (Back-end)
 1. Open the terminal
 1. Navigate to the app's root directory
-1. Type `python manage.py runserver` to run
+1. Use pip to install required packages by typing `pip install -r requirements.txt`
+1. Type `python manage.py runserver` to run the back-end
 
-## Libraries
-Python: v3.8.5  
-Django: v3.1.2  
-Django REST Framework: v3.12.1
+## Setting up React (Front-end)
+1. Open the terminal
+1. Navigate to the app's root directory
+1. Type `cd frontend` to go to our front-end's directory
+1. Use node to install required packages by typing `npm install`
+1. Type `npm start` to run the front-end
 
 ## References
 Front-end: https://www.youtube.com/watch?v=IhmSidOJSeE  
