@@ -1,5 +1,5 @@
 # Better To-Do App
-A web application created using Django REST Framework (back-end) and HTML/CSS/JavaScript (front-end)
+A web application created using Django REST Framework (back-end) and ReactJS (front-end)
 
 ## Setting up Django REST Framework (Back-end)
 1. Open the terminal
